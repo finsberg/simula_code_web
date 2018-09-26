@@ -1,0 +1,7 @@
+[project]
+    Name = "Projects"
+    URL = "/projects"
+
+[contributing]
+    Name = "Contributing"
+    URL = "/contributing"
