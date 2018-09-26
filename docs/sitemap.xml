@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://simula.no/categories/</loc>
+    <loc>https://finsberg.github.io/simula_code_web/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://simula.no/</loc>
+    <loc>https://finsberg.github.io/simula_code_web/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://simula.no/</loc>
+    <loc>https://finsberg.github.io/simula_code_web/</loc>
   </url>
   
   <url>
-    <loc>http://simula.no/tags/</loc>
+    <loc>https://finsberg.github.io/simula_code_web/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,4 +1,4 @@
-baseURL = "http://simula.no/"
+baseURL = "https://finsberg.github.io/simula_code_web/"
 languageCode = "en-us"
 title = "Code@Simula"
 description="Code and software tools written by researchers at Simula Research Laboratory"

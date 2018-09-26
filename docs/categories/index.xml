@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Code@Simula</title>
-    <link>http://simula.no/categories/</link>
+    <link>https://finsberg.github.io/simula_code_web/categories/</link>
     <description>Recent content in Categories on Code@Simula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,7 +10,7 @@
     <webMaster>yourname@example.com (yourname)</webMaster>
     <copyright>(c) 2018 Simula Research Laboratory</copyright>
     
-	<atom:link href="http://simula.no/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://finsberg.github.io/simula_code_web/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
