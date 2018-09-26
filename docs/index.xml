@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code@Simula</title>
+    <link>http://simula.no/</link>
+    <description>Recent content on Code@Simula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>yourname@example.com (yourname)</managingEditor>
+    <webMaster>yourname@example.com (yourname)</webMaster>
+    <copyright>(c) 2018 Simula Research Laboratory</copyright>
+    
+	<atom:link href="http://simula.no/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simula Research Laboratory at Github</title>
+      <link>http://simula.no/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>yourname@example.com (yourname)</author>
+      <guid>http://simula.no/</guid>
+      <description>Simula Research Laboratory has a policy that the research we do should be made public, and the code used to produce reasearch is a fundamental component in this regard.
+About this site TBW
+About Simula Reasearch Laboratory TBW</description>
+    </item>
+    
+  </channel>
+</rss>
