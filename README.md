@@ -1,17 +1,17 @@
-# Code @ Simule website
+# Code @ Simula website
 
 This is just a prototype website for the website that will be hosting
-the Simula Girthub space.
+the Simula Github space.
 
 
 ## Developing the website
 
-The code is generated using [Hugo](https://gohugo.io) to develop the
+The code is generated using [Hugo](https://gohugo.io). To develop the
 website you need to install Hugo. 
 
 All content is written in Markdown and can be found in the
-[content](content) folder. The see how the webpage look you can type
-the command
+[content](content) folder. The see how the webpage looks while
+developing you can type the command
 
 ```
 hugo server

@@ -5,4 +5,4 @@ weight: 40
 
 ---
 
-Here we can write about different projects. Perhasp link to documentation
+Here we can write about different projects. Perhaps link to documentation

@@ -5,7 +5,7 @@ weight: 20
 ---
 
 
-If you wish to contribute to the Simula Github space please see check
+If you wish to contribute to the Simula Github space please check
 out the guidlines below. 
 
 
