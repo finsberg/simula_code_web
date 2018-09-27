@@ -23,7 +23,7 @@ sidebarColor="simula-orange"
 
 [[menu.shortcuts]]
 name = "Simula website"
-url = "https://simula.no"
+url = "https://www.simula.no"
 weight = 10
 
 [[menu.shortcuts]]
