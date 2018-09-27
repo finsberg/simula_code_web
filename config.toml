@@ -2,39 +2,31 @@ baseURL = "https://finsberg.github.io/simula_code_web/"
 languageCode = "en-us"
 title = "Code@Simula"
 description="Code and software tools written by researchers at Simula Research Laboratory"
-theme = "hyde-y"
+# theme = "hyde-y"
+theme = "kraiklyn"
 
-metaDataFormat = "yaml"
+# metaDataFormat = "yaml"
 
-copyright="(c) 2018 Simula Research Laboratory"
 
-# Pagination
-# paginate = 10
-# paginatePath = "page"
 
-# Enable Disqus integration
-# disqusShortname = "your_disqus_shortname"
+
+
 
 publishDir = "docs"
 
-[author]
-    name = "yourname"
-    email = "yourname@example.com"
 
 
 [params]
+copyright="2018 Simula Research Laboratory"
+externalTitle="External resources"
+sidebarColor="simula-orange"
 
-    brand = "Code@Simula"
-    topline = "Code and software tools written by researchers at Simula Research Laboratory"
-    footline = "code with <i class='fa fa-heart'></i>"
+[[menu.shortcuts]]
+name = "Simula website"
+url = "https://simula.no"
+weight = 10
 
-    sidebar = "left"
-
-    # Text for the top menu link, which goes the root URL for the site.
-    # Default (if omitted) is "Home".
-    home = "Home"
-
-    # Select a syntax highight for highlight.js
-    # Check the static/css/highlight directory for options.
-    # Leave unset to fall back to default hugo highlighter instead of highlight.js
-    highlight = "default"
+[[menu.shortcuts]]
+name = "Computational Physiology at Simula"
+url = "https://www.simula.no/research/projects/department-computational-physiology"
+weight = 20

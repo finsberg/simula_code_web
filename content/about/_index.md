@@ -1,9 +1,10 @@
 ---
 title: 'Simula Research Laboratory at Github'
-
+anchor: "about"
+weight: 10
 ---
 
-![alt text](simula_main_rgb.png)
+![](simula_main_rgb.png)
 
 Simula Research Laboratory has a policy that the research we do should
 be made public, and the code used to produce reasearch is a
