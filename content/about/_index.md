@@ -10,8 +10,6 @@ Simula Research Laboratory has a policy that the research we do should
 be made public, and the code used to produce reasearch is a
 fundamental component in this regard.
 
-## This is test
-Hello
 
 ## About this site
 
