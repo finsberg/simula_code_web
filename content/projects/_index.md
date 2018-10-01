@@ -1,7 +1,7 @@
 ---
 title: 'Projects'
 anchor: "projects"
-weight: 40
+weight: 400
 
 ---
 

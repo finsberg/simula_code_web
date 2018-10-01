@@ -30,3 +30,8 @@ weight = 10
 name = "Computational Physiology at Simula"
 url = "https://www.simula.no/research/projects/department-computational-physiology"
 weight = 20
+
+[[menu.shortcuts]]
+name = "Python Style Guide (PEP8)"
+url = "https://www.python.org/dev/peps/pep-0008/?"
+weight = 30
