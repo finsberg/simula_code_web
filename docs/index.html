@@ -42,6 +42,12 @@
         <ul>
             
             
+                <li><a href="#contributing-documentation">Documentation</a></li>
+            
+                <li><a href="#contributing-guidelines">Guidelines</a></li>
+            
+                <li><a href="#contributing-testing">Testing</a></li>
+            
                 <li><a href="#python-dev">For python developers</a></li>
             
         </ul>
@@ -53,6 +59,20 @@
             
     <li>
         <a href="#projects">Projects</a>
+        <ul>
+            
+            
+                <li><a href="#projects-pulse">FEniCS-Pulse</a></li>
+            
+        </ul>
+    </li>
+
+
+
+        
+            
+    <li>
+        <a href="#publications">Publications with code</a>
     </li>
 
 
@@ -76,6 +96,10 @@
                     <a href="https://www.simula.no/research/projects/department-computational-physiology" target="_blank" rel="noopener">Computational Physiology at Simula</a>
                 </li>
                 
+                <li>
+                    <a href="https://www.python.org/dev/peps/pep-0008/?" target="_blank" rel="noopener">Python Style Guide (PEP8)</a>
+                </li>
+                
             </ul>
             
         </nav>
@@ -84,7 +108,7 @@
   
     <div class="version">
       (c) Copyright 2018 Simula Research Laboratory
-            generated on Sep 28, 2018
+            generated on Oct 1, 2018
     </div>
 </div>
 
@@ -126,25 +150,167 @@ fundamental component in this regard.</p>
         <a href="#contributing">Contributing to Simula Github space</a>
     </h1>
     <div class="content">
-        
-
-<p>If you wish to contribute to the Simula Github space please check
+        <p>If you wish to contribute to the Simula Github space please check
 out the guidlines below.</p>
-
-<h2 id="general-guidelines">General guidelines</h2>
-
-<h3 id="documentation">Documentation</h3>
-
-<p>Write about documentation</p>
-
-<h3 id="testing">Testing</h3>
-
-<p>Write about testing, continous integration etc</p>
 
     </div>
 </section>
 
     
+            
+                <section class="page" id="contributing-documentation">
+    <h1>
+        <a href="#contributing-documentation">Documentation</a>
+    </h1>
+    <div class="content">
+        
+
+<p>Documentation is important because this is the only source of
+information (except the code itself), that the user has. You should
+write enough documentation so that any person could install and run
+your code.</p>
+
+<p>Your documentation should contain at least the following</p>
+
+<ul>
+<li><p>Installation instructions</p>
+
+<ul>
+<li><p>How to install the code</p></li>
+
+<li><p>Installation requirementes</p></li>
+
+<li><p>Put this in your README file</p></li>
+</ul></li>
+
+<li><p>Documentation of code</p>
+
+<ul>
+<li><p>In your code you should put docstrings that explains what the
+different functions are doing. You don&rsquo;t need to do this on
+every functions, but the most core functions / objects should
+have some docstrings.</p></li>
+
+<li><p>Put this inside the code</p></li>
+</ul></li>
+
+<li><p>Demos</p>
+
+<ul>
+<li><p>You don&rsquo;t need to to have demo&rsquo;s but it is recommendend that you
+have some kind of demonstration of how to run your code.</p></li>
+
+<li><p>You can either put this in the README file or in a seprate
+file.</p></li>
+</ul></li>
+
+<li><p>License</p>
+
+<ul>
+<li><p>You should have a licenense in your repository so that other
+people that use your code know what they are allowed to
+do. Check out <a href="https://choosealicense.com">choosealicense.com</a>
+for more info about which license to choose.</p></li>
+
+<li><p>Put you license in a separate file called LICENCE</p></li>
+</ul></li>
+</ul>
+
+<h1 id="generating-documentation">Generating documentation</h1>
+
+<p>There are several way of writing dociumentation. The most imporatant
+this is that you write some documentation, not how you do it.
+The easiest thing to do is probably to write everything in a README
+file, and that is fine.</p>
+
+<p>If you want a little more structe and style on your docmentation you
+can have a look at <a href="http://www.sphinx-doc.org/en/master/">Sphinx</a>
+which is a tools for building documentation for code written in
+different programming languages (not only python). Check out my
+<a href="https://github.com/finsberg/sphinx-tutorial">sphinx-tutorial</a> for a
+simple introduction to sphinx. Otherwise there is a lot of good online
+tutorials. The nice thing about sphinx is that you can use it to
+generate documentation in many different formats (html, pdf, latex,
+man pages, etc.)</p>
+
+<p>There are also many other static site generators such as
+<a href="https://gohugo.io">Hugo</a> and
+<a href="http://docs.getpelican.com/en/stable/">Pelican</a> which can be used to
+write documentation. Note that this site is written using Hugo.</p>
+
+<h2 id="hosting-documentation-online">Hosting documentation online</h2>
+
+<p>Once you have written your documentation you might want to put it
+somewere that people can easily access it. Again, it is possible to
+only make a README file, in case your repository will host your
+documentation. However that are other ways of doing this</p>
+
+<ul>
+<li><p><a href="https://readthedocs.org">Read the docs</a></p>
+
+<ul>
+<li>&ldquo;Read the docs&rdquo; are probably the most popular alternative,
+because here you can make sure that everytime you push code
+to you repoisitory the documentaions is built and your site is
+updated.</li>
+<li>Your site will then typically be called
+<code>you_project_name.readthedocs.io</code> or
+<code>readthedocs.io/projects/your_project_name</code>.</li>
+</ul></li>
+
+<li><p><a href="https://pages.github.com">Githubpages</a></p>
+
+<ul>
+<li>&ldquo;Githupages&rdquo; are probably the easiest way to deploy your
+documentation if your repository is hosted in
+<a href="https://github.com">github</a>.</li>
+<li>Yor site will then be called
+<code>username.github.io/your_project_name</code>.
+<br />
+<br /></li>
+</ul></li>
+
+<li><p><a href="https://www.aerobatic.com">Aerobatic</a></p>
+
+<ul>
+<li>&ldquo;Aerobatic&rdquo; is yet another simple static stite generator</li>
+<li>Your site will then be called <code>your_project.aerobaticapp.com</code>
+<br />
+<br /></li>
+</ul></li>
+</ul>
+
+<p>For more alternatives to deploy your documentation, have a look at
+<a href="https://gohugo.io/hosting-and-deployment/">how to deploy your Hugo
+site</a>.</p>
+
+    </div>
+</section>
+
+            
+                <section class="page" id="contributing-guidelines">
+    <h1>
+        <a href="#contributing-guidelines">Guidelines</a>
+    </h1>
+    <div class="content">
+        <p>Here you will find some general guidelines for what you should make
+sure that your code contains before you put in on the Simula Github
+space.</p>
+
+    </div>
+</section>
+
+            
+                <section class="page" id="contributing-testing">
+    <h1>
+        <a href="#contributing-testing">Testing</a>
+    </h1>
+    <div class="content">
+        <p>Write about testing, continous integration etc</p>
+
+    </div>
+</section>
+
             
                 <section class="page" id="python-dev">
     <h1>
@@ -168,6 +334,65 @@ out the guidlines below.</p>
     </h1>
     <div class="content">
         <p>Here we can write about different projects. Perhaps link to documentation</p>
+
+    </div>
+</section>
+
+    
+            
+                <section class="page" id="projects-pulse">
+    <h1>
+        <a href="#projects-pulse">FEniCS-Pulse</a>
+    </h1>
+    <div class="content">
+        <p><a href="https://finsberg.github.io/pulse/">Pulse</a> is a python package based
+on <a href="https://finsberg.github.io/pulse/">FEniCS</a> that can be used to
+solve continuum mechanincs problems using the finite element method.</p>
+
+    </div>
+</section>
+
+            
+
+
+
+        
+            
+    <section class="page" id="publications">
+    <h1>
+        <a href="#publications">Publications with code</a>
+    </h1>
+    <div class="content">
+        <p>Here is a list of publications where the source code is made available</p>
+
+<ul>
+<li><p>Finsberg, H., Xi, C., Tan, J.L., Zhong, L., Genet, M., Sundnes, J.,
+Lee, L.C. and Wall, S.T., 2018. Efficient estimation of personalized
+biventricular mechanical function employing gradient‐based
+optimization. International journal for numerical methods in
+biomedical engineering, p.e2982.
+<a href="https://doi.org/10.1002/cnm.2982">DOI</a>
+<a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/cnm.2982">PDF</a>
+<a href="https://bitbucket.org/finsberg/efficient-estimation-of-personalized-biventricular-mechanical">CODE</a></p></li>
+
+<li><p>Finsberg, H., Balaban, G., Ross, S., Håland, T.F., Odland, H.H.,
+Sundnes, J. and Wall, S., 2018. Estimating cardiac contraction
+through high resolution data assimilation of a personalized
+mechanical model. Journal of computational science, 24, pp.85-90.
+<a href="https://doi.org/10.1016/j.jocs.2017.07.013">DOI</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S1877750317308190/pdfft?md5=3f7bbc82a870dc84f5080564c7f3c33a&amp;pid=1-s2.0-S1877750317308190-main.pdf">PDF</a>
+<a href="https://bitbucket.org/finsberg/estimate_cardiac_contraction">CODE</a></p></li>
+
+<li><p>Balaban, G., Finsberg, H., Odland, H.H., Rognes, M.E., Ross,
+S., Sundnes, J. and Wall, S., 2017. High‐resolution data
+assimilation of cardiac mechanics applied to a dyssynchronous
+ventricle. International journal for numerical methods in biomedical
+engineering, 33(11),
+p.e2863.
+<a href="https://doi.org/10.1002/cnm.2863">DOI</a>
+<a href="https://www.duo.uio.no/bitstream/handle/10852/62016/Balaban_et_al-2017-cnm-2863.pdf">PDF</a>
+<a href="https://bitbucket.org/finsberg/cardiac_highres_dataassim">CODE</a></p></li>
+</ul>
 
     </div>
 </section>

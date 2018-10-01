@@ -11,6 +11,40 @@
     
     
     <item>
+      <title>Documentation</title>
+      <link>https://finsberg.github.io/simula_code_web/contributing/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://finsberg.github.io/simula_code_web/contributing/documentation/</guid>
+      <description>Documentation is important because this is the only source of information (except the code itself), that the user has. You should write enough documentation so that any person could install and run your code.
+Your documentation should contain at least the following
+ Installation instructions
+ How to install the code
+ Installation requirementes
+ Put this in your README file
+  Documentation of code
+ In your code you should put docstrings that explains what the different functions are doing.</description>
+    </item>
+    
+    <item>
+      <title>Guidelines</title>
+      <link>https://finsberg.github.io/simula_code_web/contributing/guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://finsberg.github.io/simula_code_web/contributing/guidelines/</guid>
+      <description>Here you will find some general guidelines for what you should make sure that your code contains before you put in on the Simula Github space.</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://finsberg.github.io/simula_code_web/contributing/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://finsberg.github.io/simula_code_web/contributing/testing/</guid>
+      <description>Write about testing, continous integration etc</description>
+    </item>
+    
+    <item>
       <title>For python developers</title>
       <link>https://finsberg.github.io/simula_code_web/contributing/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

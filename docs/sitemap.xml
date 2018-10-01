@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://finsberg.github.io/simula_code_web/contributing/documentation/</loc>
+  </url>
+  
+  <url>
     <loc>https://finsberg.github.io/simula_code_web/about/</loc>
   </url>
   
@@ -11,11 +15,27 @@
   </url>
   
   <url>
+    <loc>https://finsberg.github.io/simula_code_web/contributing/guidelines/</loc>
+  </url>
+  
+  <url>
+    <loc>https://finsberg.github.io/simula_code_web/contributing/testing/</loc>
+  </url>
+  
+  <url>
     <loc>https://finsberg.github.io/simula_code_web/contributing/python/</loc>
   </url>
   
   <url>
     <loc>https://finsberg.github.io/simula_code_web/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://finsberg.github.io/simula_code_web/projects/pulse/</loc>
+  </url>
+  
+  <url>
+    <loc>https://finsberg.github.io/simula_code_web/publications/</loc>
   </url>
   
   <url>

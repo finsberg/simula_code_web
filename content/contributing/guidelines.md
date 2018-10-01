@@ -1,5 +1,5 @@
 ---
-title: 'Guidelines
+title: 'Guidelines'
 anchor: "contributing-guidelines"
 weight: 210
 ---
